@@ -22,9 +22,9 @@ public class CalendarDateFormat {
 			SimpleDateFormat slashSdf = new SimpleDateFormat("yyyy/MM/dd");
 			String sDate = slashSdf.format(date);
 			
-			System.out.println("#"+test_case+"/t"+ sDate);
+			System.out.println("#"+test_case+" "+ sDate);
 		} catch(ParseException e) {
-			System.out.println("#"+test_case+"\n"+(-1));
+			System.out.println("#"+test_case+" "+(-1));
 		}
 	}
 	}

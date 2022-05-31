@@ -17,8 +17,10 @@ public class AverageValue {
 				sum += T;
 			}
 			System.out.println("#"+test_case+" "+Math.round(sum/10));
+	
 		}
 	}
+	
 	//Math.round 는 값을 반올림
 	//Math.ceil 은 값을 올림
 	//Math.floor 는 값을 내림
